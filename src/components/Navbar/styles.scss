@@ -1,0 +1,19 @@
+@import "../../assets/css/base";
+
+#Navigation {
+	position: relative;
+	padding: 1.5rem 0;
+	background-color: rgb(121 77 248);
+	z-index: 5;
+	padding: 16px 1rem;
+
+	.brand i {
+		font-size: 40px;
+		color: #fff;
+	}
+
+	@include respond-to('lg') {
+		grid-template-columns: repeat(2, minmax(0, 1fr));
+		padding: 20px 5rem;
+	}
+}

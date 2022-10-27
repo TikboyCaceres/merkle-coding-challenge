@@ -1,0 +1,27 @@
+@import "_base.scss";
+@import "_normalise.scss";
+@import "_layout.scss";
+
+@font-face {
+	font-family: 'Sofia-Regular';
+	src: url('../fonts/SofiaPro/Sofia\ Pro\ Regular.otf'
+		);
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: 'Sofia-Bold';
+	src: url('../fonts/SofiaPro/Sofia\ Pro\ Semi\ Bold.otf');
+	font-weight: bold;
+}
+
+@font-face {
+	font-family: 'Sofia-Light';
+	src: url('../fonts/SofiaPro/Sofia\ Pro\ Extra\ Light.otf');
+	font-weight: lighter;
+}
+
+body {
+	background-color: $cream;
+	font-family: 'Sofia-Regular';
+}
