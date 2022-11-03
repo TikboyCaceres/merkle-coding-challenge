@@ -10,4 +10,4 @@ Go to root of directory and install the dependencies then run `npm run start` th
 
 Go to root of directory and install the dependencies then run `npm run build` .
 
-If you have questions you can email tikboycacers@gmail.com.
+If you have questions you can email tikboycaceres@gmail.com.
